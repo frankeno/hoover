@@ -27,4 +27,5 @@ Try all the effects here: https://xsgames.co/hoover
 ```
 3. Done, move the mouse pointer over it, click and watch the effect!
 
-#### You can customize the `hover.css` file as you wish, such as shadow or border colors, transitions duration, and so on. It's open source, it's yours ;)
+#### You can customize the `hover.css` file as you wish, such as shadow or border colors, transitions duration, and so on.
+#### It's open source, it's yours ;)
