@@ -1,0 +1,276 @@
+/*
+-----------------------------------------------------------
+  Hoovers CSS - Curated collection of transitions to spice up your web design
+  Licensed under FreeBSD License
+  URL: https://xsgames.co/hoovers
+  Author URL: https://xsgames.co
+  Author Twitter: @xsgames_
+------------------------------------------------------------
+*/
+
+/* scaling */
+.scale-up { transition: .3s ease-out; }
+.scale-up:hover { cursor: pointer; transform: scale(1.1); }
+.scale-up:active { transform: scale(.85); }
+
+.scale-down { transition: .3s ease-out; }
+.scale-down:hover { cursor: pointer; transform: scale(0.9); }
+.scale-down:active { transform: scale(.85); }
+
+.scale-x { transition: .3s ease-out; }
+.scale-x:hover { cursor: pointer; transform: scaleX(1.2); }
+.scale-x:active { transform: scale(.85); }
+
+.scale-y { transition: .3s ease-out; }
+.scale-y:hover { cursor: pointer; transform: scaleY(1.2); }
+.scale-y:active { transform: scale(.85); }
+
+.shrink-x { transition: .3s ease-out; }
+.shrink-x:hover { cursor: pointer; transform: scaleX(0.8); }
+.shrink-x:active { transform: scale(.85); }
+
+.shrink-y { transition: .3s ease-out; }
+.shrink-y:hover { cursor: pointer; transform: scaleY(0.8); }
+.shrink-y:active { transform: scale(.85); }
+
+.scale-x-left { transition: .3s ease-out; }
+.scale-x-left:hover { cursor: pointer; transform: scaleX(1.1) translateX(-10px); }
+.scale-x-left:active { transform: scale(.85); }
+
+.scale-x-right { transition: .3s ease-out; }
+.scale-x-right:hover { cursor: pointer; transform: scaleX(1.1) translateX(20px); }
+.scale-x-right:active { transform: scale(.85); }
+
+.scale-x-top { transition: .3s ease-out; }
+.scale-x-top:hover { cursor: pointer; transform: scaleX(1.1) translateY(-20px); }
+.scale-x-top:active { transform: scale(.85); }
+
+.scale-x-bottom { transition: .3s ease-out; }
+.scale-x-bottom:hover { cursor: pointer; transform: scaleX(1.1) translateY(20px); }
+.scale-x-bottom:active { transform: scale(.85); }
+
+.shrink-x-left { transition: .3s ease-out; }
+.shrink-x-left:hover { cursor: pointer; transform: scaleX(0.8) translateX(-20px); }
+.shrink-x-left:active { transform: scale(.8); }
+
+.shrink-x-right { transition: .3s ease-out; }
+.shrink-x-right:hover { cursor: pointer; transform: scaleX(0.8) translateX(20px); }
+.shrink-x-right:active { transform: scale(.8); }
+
+/* shadows */
+.shadow-bottom-right { transition: .3s ease; } 
+.shadow-bottom-right:hover { cursor: pointer; box-shadow: 9px 9px 0px #689f38; transform: scale(.95);  }
+.shadow-bottom-right:active { transform: scale(.85);  }
+
+.shadow-bottom-left {  transition: .3s ease; } 
+.shadow-bottom-left:hover { cursor: pointer; box-shadow: -9px 9px 0px #689f38; transform: scale(.95);  }
+.shadow-bottom-left:active { transform: scale(.85);  }
+
+.shadow-top-right {  transition: .3s ease; } 
+.shadow-top-right:hover { cursor: pointer; box-shadow: 9px -9px 0px #689f38; transform: scale(.95);  }
+.shadow-top-right:active { transform: scale(.85);  }
+
+.shadow-top-left {  transition: .3s ease; } 
+.shadow-top-left:hover { cursor: pointer; box-shadow: -9px -9px 0px #689f38; transform: scale(.95);  }
+.shadow-top-left:active { transform: scale(.85);  }
+
+.shadow-top {  transition: .3s ease; } 
+.shadow-top:hover { cursor: pointer; box-shadow: 0px -9px 0px #689f38; transform: scale(.95);  }
+.shadow-top:active { transform: scale(.85);  }
+
+.shadow-bottom {  transition: .3s ease; } 
+.shadow-bottom:hover { cursor: pointer; box-shadow: 0px 9px 0px #689f38; transform: scale(.95);  }
+.shadow-bottom:active { transform: scale(.85);  }
+
+.shadow-left {  transition: .3s ease; } 
+.shadow-left:hover { cursor: pointer; box-shadow: -9px 0px 0px #689f38; transform: scale(.95);  }
+.shadow-left:active { transform: scale(.85);  }
+
+.shadow-right {  transition: .3s ease; } 
+.shadow-right:hover { cursor: pointer; box-shadow: 9px 0px 0px #689f38; transform: scale(.95);  }
+.shadow-right:active { transform: scale(.85);  }
+
+.shadow-center-blur {  transition: .3s ease; } 
+.shadow-center-blur:hover { cursor: pointer; box-shadow: 0px 0px 20px #689f38; transform: scale(.95);  }
+.shadow-center-blur:active { transform: scale(.85);  }
+
+.shadow-blur-bottom {  transition: .3s ease; } 
+.shadow-blur-bottom:hover { cursor: pointer; box-shadow: 0px 9px 10px #689f38; transform: scale(.95);  }
+.shadow-blur-bottom:active { transform: scale(.85);  }
+
+.shadow-blur-top {  transition: .3s ease; } 
+.shadow-blur-top:hover { cursor: pointer; box-shadow: 0px -9px 10px #689f38; transform: scale(.95);  }
+.shadow-blur-top:active { transform: scale(.85);  }
+
+.shadow-blur-left {  transition: .3s ease; } 
+.shadow-blur-left:hover { cursor: pointer; box-shadow: -9px 0px 10px #689f38; transform: scale(.95);  }
+.shadow-blur-left:active { transform: scale(.85);  }
+
+.shadow-blur-right {  transition: .3s ease; } 
+.shadow-blur-right:hover { cursor: pointer; box-shadow: 9px 0px 10px #689f38; transform: scale(.95);  }
+.shadow-blur-right:active { transform: scale(.85);  }
+
+.shadow-center-big {  transition: .3s ease; } 
+.shadow-center-big:hover { cursor: pointer; box-shadow: 0px 0px 50px 15px #689f38; transform: scale(.95);  }
+.shadow-center-big:active { transform: scale(.85);  }
+
+.shadow-center-flat-big {  transition: .3s ease; } 
+.shadow-center-flat-big:hover { cursor: pointer; box-shadow: 0px 0px 0px 15px #689f38; transform: scale(.95);  }
+.shadow-center-flat-big:active { transform: scale(.85);  }
+
+.shadow-inset-top-left {  transition: .3s ease; } 
+.shadow-inset-top-left:hover { cursor: pointer; box-shadow: inset 5px 5px 0px 5px #689f38; transform: scale(.95);  }
+.shadow-inset-top-left:active { transform: scale(.85);  }
+
+.shadow-inset-top-right {  transition: .3s ease; } 
+.shadow-inset-top-right:hover { cursor: pointer; box-shadow: inset -5px 5px 0px 5px #689f38; transform: scale(.95);  }
+.shadow-inset-top-right:active { transform: scale(.85);  }
+
+.shadow-inset-bottom-left {  transition: .3s ease; } 
+.shadow-inset-bottom-left:hover { cursor: pointer; box-shadow: inset 5px -5px 0px 5px #689f38; transform: scale(.95);  }
+.shadow-inset-bottom-left:active { transform: scale(.85);  }
+
+.shadow-inset-bottom-right {  transition: .3s ease; } 
+.shadow-inset-bottom-right:hover { cursor: pointer; box-shadow: inset -5px -5px 0px 5px #689f38; transform: scale(.95);  }
+.shadow-inset-bottom-right:active { transform: scale(.85);  }
+
+/* rotations */
+.rotate-y { transition: .5s ease-out; } 
+.rotate-y:hover { cursor: pointer; transform: rotateY(360deg);  }
+.rotate-y:active { transform: scale(.85);  }
+
+.rotate-x { transition: .5s ease-out; } 
+.rotate-x:hover { cursor: pointer; transform: rotateX(360deg);  }
+.rotate-x:active { transform: scale(.85);  }
+
+.rotate-left { transition: .5s ease-out; } 
+.rotate-left:hover { cursor: pointer; transform: rotate(-360deg);  }
+.rotate-left:active { transform: scale(.85);  }
+
+.rotate-right { transition: .5s ease-out; } 
+.rotate-right:hover { cursor: pointer; transform: rotate(360deg);  }
+.rotate-right:active { transform: scale(.85);  }
+
+.rotate-diagonal { transition: .5s ease-out; } 
+.rotate-diagonal:hover { cursor: pointer; transform: rotateX(180deg) rotateY(180deg); }
+.rotate-diagonal:active { transform: scale(.85);  }
+
+/* gradients */
+.gradient1 { background: linear-gradient(#ffeb3b, #8d6e63); transition: background .5s ease-out; background-size: 1px 320px; }
+.gradient1:hover { cursor: pointer; background-position:160px; }
+.gradient1:active { transform: scale(.85); }
+
+.gradient2 { background: linear-gradient(#b39ddb, #ffeb3b); transition: background .5s ease-out; background-size: 1px 320px; }
+.gradient2:hover { cursor: pointer; background-position:160px; }
+.gradient2:active { transform: scale(.85); }
+
+.gradient3 { background: linear-gradient(#00bcd4, #f06292); transition: background .5s ease-out; background-size: 1px 320px; }
+.gradient3:hover { cursor: pointer; background-position:160px; }
+.gradient3:active { transform: scale(.85); }
+
+.gradient4 { background: linear-gradient(#4db6ac, #ffc107); transition: background .5s ease-out; background-size: 1px 320px; }
+.gradient4:hover { cursor: pointer; background-position:160px; }
+.gradient4:active { transform: scale(.85); }
+
+/* skewing */
+.skew-center-left { background: #ff5722;  transition: .3s ease; }
+.skew-center-left:hover { cursor: pointer; transform: skew(12deg); }
+.skew-center-left:active { transform: scale(.85); }
+
+.skew-center-right { background: #ff5722;  transition: .3s ease; }
+.skew-center-right:hover { cursor: pointer; transform: skew(-12deg); }
+.skew-center-right:active { transform: scale(.85); }
+
+.skew-diagonal-left { background: #ff5722;  transition: .3s ease; }
+.skew-diagonal-left:hover { cursor: pointer; transform: skewY(-18deg); }
+.skew-diagonal-left:active { transform: scale(.85); }
+
+.skew-diagonal-right { background: #ff5722;  transition: .3s ease; }
+.skew-diagonal-right:hover { cursor: pointer; transform: skewY(18deg); }
+.skew-diagonal-right:active { transform: scale(.85); }
+
+/* translating */
+.translate-left { background: #f06292;  transition: .3s ease; }
+.translate-left:hover { cursor: pointer; transform: translateX(-20px); }
+.translate-left:active { transform: scale(.85); }
+
+.translate-right { background: #f06292;  transition: .3s ease; }
+.translate-right:hover { cursor: pointer; transform: translateX(20px); }
+.translate-right:active { transform: scale(.85); }
+
+.translate-top { background: #f06292;  transition: .3s ease; }
+.translate-top:hover { cursor: pointer; transform: translateY(-20px); }
+.translate-top:active { transform: scale(.85); }
+
+.translate-bottom { background: #f06292;  transition: .3s ease; }
+.translate-bottom:hover { cursor: pointer; transform: translateY(20px); }
+.translate-bottom:active { transform: scale(.85); }
+
+.translate-top-left { background: #f06292;  transition: .3s ease; }
+.translate-top-left:hover { cursor: pointer; transform: translate(-20px, -20px); }
+.translate-top-left:active { transform: scale(.85); }
+
+.translate-top-right { background: #f06292;  transition: .3s ease; }
+.translate-top-right:hover { cursor: pointer; transform: translate(20px, -20px); }
+.translate-top-right:active { transform: scale(.85); }
+
+.translate-bottom-left { background: #f06292;  transition: .3s ease; }
+.translate-bottom-left:hover { cursor: pointer; transform: translate(-20px, 20px); }
+.translate-bottom-left:active { transform: scale(.85); }
+
+.translate-bottom-right { background: #f06292;  transition: .3s ease; }
+.translate-bottom-right:hover { cursor: pointer; transform: translate(20px, 20px); }
+.translate-bottom-right:active { transform: scale(.85); }
+
+/* borders */
+.border-full { background: #8d6e63;  transition: .3s ease; }
+.border-full:hover { cursor: pointer; border: 6px solid #dbbdb3; }
+.border-full:active { transform: scale(.85); }
+
+.border-dashed { background: #8d6e63;  transition: .3s ease; }
+.border-dashed:hover { cursor: pointer; border: 2px dashed #dbbdb3; }
+.border-dashed:active { transform: scale(.85); }
+
+.border-irregular { background: #8d6e63;  transition: .3s ease; }
+.border-irregular:hover { cursor: pointer; border-top-left-radius: 174px 23px; border-top-right-radius: 47px 109px; border-bottom-left-radius: 26px 84px; border-bottom-right-radius: 180px 34px; }
+.border-irregular:active { transform: scale(.85); }
+
+.border-image { background: #8d6e63;  transition: .3s ease; border: 8px solid transparent; }
+.border-image:hover { cursor: pointer;  border-image: url(https://svgsilh.com/svg/1227613.svg) 10% round;  }
+.border-image:active { transform: scale(.85); }
+
+.border-blur { background: #8d6e63;  transition: .3s ease;  }
+.border-blur:hover { cursor: pointer;  box-shadow: inset 0px 0px 30px #ddd;  }
+.border-blur:active { transform: scale(.85); }
+
+.border-left { background: #8d6e63;  transition: .3s ease;  }
+.border-left:hover { cursor: pointer;  border-left: 8px solid #dbbdb3;  }
+.border-left:active { transform: scale(.85); }
+
+.border-right { background: #8d6e63;  transition: .3s ease;  }
+.border-right:hover { cursor: pointer;  border-right: 8px solid #dbbdb3;  }
+.border-right:active { transform: scale(.85); }
+
+.border-on-top { background: #8d6e63;  transition: .3s ease;  }
+.border-on-top:hover { cursor: pointer;  border-top: 8px solid #dbbdb3;  }
+.border-on-top:active { transform: scale(.85); }
+
+.border-on-bottom { background: #8d6e63;  transition: .3s ease;  }
+.border-on-bottom:hover { cursor: pointer;  border-bottom: 8px solid #dbbdb3;  }
+.border-on-bottom:active { transform: scale(.85); }
+
+.border-pentagon{ background: #8d6e63;  transition: .3s ease;  }
+.border-pentagon:hover { cursor: pointer;  -webkit-clip-path: polygon(50% 0%, 100% 40%, 82% 100%, 18% 100%, 0% 40%); clip-path: polygon(50% 0%, 100% 40%, 82% 100%, 18% 100%, 0% 40%);  }
+.border-pentagon:active { transform: scale(.85); }
+
+.border-circle{ background: #8d6e63;  transition: .3s ease;  }
+.border-circle:hover { cursor: pointer;  border-radius: 99px;  }
+.border-circle:active { transform: scale(.85); }
+
+.border-cross{ background: #8d6e63;  transition: .3s ease;  }
+.border-cross:hover { cursor: pointer;  -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);  }
+.border-cross:active { transform: scale(.85); }
+
+.border-olive{ background: #8d6e63;  transition: .3s ease;  }
+.border-olive:hover { cursor: pointer; border-radius: 50% 10%; }
+.border-olive:active { transform: scale(.85); }
