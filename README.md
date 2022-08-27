@@ -4,7 +4,7 @@
 Nice collection of CSS transitions to spice up your web design
 
 ## Download/Install
-1. Download the `hoover.css` file from this repository
+1. Download this repository as a zip file and extract the `hoover.css` file
 2. Add it to your websites files, into a folder called `css` for instance
 3. Reference `hoover.css` inside the <head> tag of the HTML page you'd like to have the Hoover's transition effects to:
 ```css 
