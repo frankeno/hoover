@@ -3,6 +3,9 @@
 # Hoover
 Nice collection of CSS transitions to spice up your web design
 
+Try all the effects here: https://xsgames.co/hoover
+
+
 ## Download/Install
 1. Download this repository as a zip file and extract the `hoover.css` file
 2. Add it to your websites files, into a folder called `css` for instance
